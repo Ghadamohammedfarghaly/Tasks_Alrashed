@@ -1,0 +1,109 @@
+
+                    <!--بسم الله الرحمن الرحيم-->
+<html>
+
+<head>
+
+    <title>Rgestration Form</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Sign Up Form"/>
+    <style>
+        #f1{
+            
+          height:400px;
+          width:30%;
+          position:absolute;
+            
+        }
+        
+        body{
+            
+           background-color:azure;
+           margin-left:400px;
+           margin-top:100px;
+        }
+        
+        
+        #f2{  
+            
+        }
+        
+        #in1,#in2,#in3{
+            
+        
+            width:150px;
+            height:20px;
+        }
+        
+        #in2{
+           margin-left:44px;    
+            
+        }
+        
+        #in3{
+            
+            margin-left:42px;
+        }
+        
+        
+        div{
+            
+          position:absolute;
+          top:190px;
+          left:90px;
+        }
+        
+        #b1{
+            
+          position:absolute;
+          top:350;
+          right:20px
+          
+        }
+        
+        #b2{
+          position:absolute;
+          top:350;
+          right:90px
+            
+        }
+    </style>
+</head>
+
+<body>
+
+<form  action="">
+    <fieldset id="f1" id="f2" >
+        <legend>
+            Regestration Form 
+        
+        </legend>
+        <br/>
+        <br/>
+        First Name <input type="textbox"  id="in1" required/><br/><br/>
+        Last Name  <input type="textbox" id="in1" required/><br/><br/>
+        Age        <input type="number" min="18" max="60" id="in2"  required/><br/><br/>
+        Date       <input type="date" id="in3"  required/><br/><br/>
+        Gender:    <div> 
+                   <label for="l1">Male</label><input type="radio" name="r1" id="l1"  required/ >
+                   <label for="l2">Female</label> <input type="radio" name="r1" id="l2"  required/></div>
+                   <br/><br/>
+        
+        <textarea placeholder="tell us about yourself"  required></textarea><br/><br/>
+        
+        What's your favourite job that you do?
+        <select id="in1"  required>
+        <option>coding</option>
+        <option>designing</option>
+        <option>working</option>
+        </select>
+        
+        <br/><br/>
+        <button id="b1">Submit</button>
+        <button id="b2">Reset</button>
+        
+    </fieldset>
+</form>
+</body>
+
+</html>
